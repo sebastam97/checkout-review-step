@@ -401,8 +401,8 @@ npm run test:performance
 ### Repositorio y Demo
 
 - **GitHub**: [https://github.com/sebastam97/checkout-review-step](https://github.com/sebastam97/checkout-review-step)
-- **Demo Live**: [https://checkout-review-step.vercel.app/](https://checkout-review-step.vercel.app/)
-- **Review Step**: [https://checkout-review-step.vercel.app/review-step](https://checkout-review-step.vercel.app/review-step)
+- **Demo Live**: [https://sebastam97.github.io/checkout-review-step/](https://sebastam97.github.io/checkout-review-step/)
+- **Review Step**: [https://sebastam97.github.io/checkout-review-step/review-step](https://sebastam97.github.io/checkout-review-step/review-step)
 
 ### Documentación
 
