@@ -243,14 +243,6 @@ VITE_API_BASE_URL=http://localhost:3001/api
 RECAPTCHA_SITE_KEY=your-recaptcha-site-key
 ```
 
-### Internacionalización
-
-El sistema detecta automáticamente el idioma basado en el dominio:
-
-- `mercadolibre.com.ar` → `es-AR`
-- `mercadolivre.com.br` → `pt-BR`
-- `mercadolibre.com.mx` → `es-MX`
-
 ## 📊 Performance
 
 ### Métricas Objetivo
