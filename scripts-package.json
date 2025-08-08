@@ -1,0 +1,12 @@
+{
+  "name": "start-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "start-all": "concurrently \"npm run server\" \"npm run dev\"",
+    "server": "node demo-server.js",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,41 @@
+export const ARGENTINE_PROVINCES = [
+  { value: 'CABA', label: 'Ciudad Autónoma de Buenos Aires' },
+  { value: 'BA', label: 'Buenos Aires' },
+  { value: 'CA', label: 'Catamarca' },
+  { value: 'CH', label: 'Chaco' },
+  { value: 'CB', label: 'Chubut' },
+  { value: 'CO', label: 'Córdoba' },
+  { value: 'CR', label: 'Corrientes' },
+  { value: 'ER', label: 'Entre Ríos' },
+  { value: 'FO', label: 'Formosa' },
+  { value: 'JU', label: 'Jujuy' },
+  { value: 'LP', label: 'La Pampa' },
+  { value: 'LR', label: 'La Rioja' },
+  { value: 'ME', label: 'Mendoza' },
+  { value: 'MI', label: 'Misiones' },
+  { value: 'NE', label: 'Neuquén' },
+  { value: 'RN', label: 'Río Negro' },
+  { value: 'SA', label: 'Salta' },
+  { value: 'SJ', label: 'San Juan' },
+  { value: 'SL', label: 'San Luis' },
+  { value: 'SC', label: 'Santa Cruz' },
+  { value: 'SF', label: 'Santa Fe' },
+  { value: 'SE', label: 'Santiago del Estero' },
+  { value: 'TF', label: 'Tierra del Fuego' },
+  { value: 'TU', label: 'Tucumán' }
+];
+
+export const COUNTRIES = [
+  { value: 'AR', label: 'Argentina' },
+  { value: 'BR', label: 'Brasil' },
+  { value: 'CL', label: 'Chile' },
+  { value: 'CO', label: 'Colombia' },
+  { value: 'EC', label: 'Ecuador' },
+  { value: 'ES', label: 'España' },
+  { value: 'MX', label: 'México' },
+  { value: 'PE', label: 'Perú' },
+  { value: 'UY', label: 'Uruguay' },
+  { value: 'VE', label: 'Venezuela' },
+  { value: 'US', label: 'Estados Unidos' },
+  { value: 'CA', label: 'Canadá' }
+];
