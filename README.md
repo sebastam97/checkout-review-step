@@ -5,7 +5,6 @@
 ### Demo Live
 
 - **Aplicación Web**: [https://sebastam97.github.io/checkout-review-step/](https://sebastam97.github.io/checkout-review-step/)
-- **Review Step**: [https://sebastam97.github.io/checkout-review-step/review-step](https://sebastam97.github.io/checkout-review-step/review-step)
 
 ### Ejemplos con Parámetros de Prueba
 
