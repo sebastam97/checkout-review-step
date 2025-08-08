@@ -4,16 +4,16 @@
 
 ### Demo Live
 
-- **Aplicación Web**: [https://checkout-review-step.vercel.app/](https://checkout-review-step.vercel.app/)
-- **Review Step**: [https://checkout-review-step.vercel.app/review-step](https://checkout-review-step.vercel.app/review-step)
+- **Aplicación Web**: [https://sebastam97.github.io/checkout-review-step/](https://sebastam97.github.io/checkout-review-step/)
+- **Review Step**: [https://sebastam97.github.io/checkout-review-step/review-step](https://sebastam97.github.io/checkout-review-step/review-step)
 
 ### Ejemplos con Parámetros de Prueba
 
-- **Con Token**: [https://checkout-review-step.vercel.app/review-step?token=demo123&referrer=/shipping](https://checkout-review-step.vercel.app/review-step?token=demo123&referrer=/shipping)
+- **Con Token**: [https://sebastam97.github.io/checkout-review-step/review-step?token=demo123&referrer=/shipping](https://sebastam97.github.io/checkout-review-step/review-step?token=demo123&referrer=/shipping)
 - **Diferentes Idiomas**:
-  - Español: [https://checkout-review-step.vercel.app/review-step?lang=es](https://checkout-review-step.vercel.app/review-step?lang=es)
-  - Portugués: [https://checkout-review-step.vercel.app/review-step?lang=pt](https://checkout-review-step.vercel.app/review-step?lang=pt)
-  - Inglés: [https://checkout-review-step.vercel.app/review-step?lang=en](https://checkout-review-step.vercel.app/review-step?lang=en)
+  - Español: [https://sebastam97.github.io/checkout-review-step/review-step?lang=es](https://sebastam97.github.io/checkout-review-step/review-step?lang=es)
+  - Portugués: [https://sebastam97.github.io/checkout-review-step/review-step?lang=pt](https://sebastam97.github.io/checkout-review-step/review-step?lang=pt)
+  - Inglés: [https://sebastam97.github.io/checkout-review-step/review-step?lang=en](https://sebastam97.github.io/checkout-review-step/review-step?lang=en)
 
 ### Repositorio
 
