@@ -6,13 +6,6 @@
 
 - **Aplicación Web**: [https://sebastam97.github.io/checkout-review-step/](https://sebastam97.github.io/checkout-review-step/)
 
-### Ejemplos con Parámetros de Prueba
-
-- **Con Token**: [https://sebastam97.github.io/checkout-review-step/review-step?token=demo123&referrer=/shipping](https://sebastam97.github.io/checkout-review-step/review-step?token=demo123&referrer=/shipping)
-- **Diferentes Idiomas**:
-  - Español: [https://sebastam97.github.io/checkout-review-step/review-step?lang=es](https://sebastam97.github.io/checkout-review-step/review-step?lang=es)
-  - Portugués: [https://sebastam97.github.io/checkout-review-step/review-step?lang=pt](https://sebastam97.github.io/checkout-review-step/review-step?lang=pt)
-  - Inglés: [https://sebastam97.github.io/checkout-review-step/review-step?lang=en](https://sebastam97.github.io/checkout-review-step/review-step?lang=en)
 
 ### Repositorio
 
