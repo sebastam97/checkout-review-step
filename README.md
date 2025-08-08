@@ -4,16 +4,16 @@
 
 ### Demo Live
 
-- **Aplicación Web**: [https://sebastam97.github.io/checkout-review-step/](https://sebastam97.github.io/checkout-review-step/)
-- **Review Step**: [https://sebastam97.github.io/checkout-review-step/review-step](https://sebastam97.github.io/checkout-review-step/review-step)
+- **Aplicación Web**: [https://checkout-review-step.vercel.app/](https://checkout-review-step.vercel.app/)
+- **Review Step**: [https://checkout-review-step.vercel.app/review-step](https://checkout-review-step.vercel.app/review-step)
 
 ### Ejemplos con Parámetros de Prueba
 
-- **Con Token**: [https://sebastam97.github.io/checkout-review-step/review-step?token=demo123&referrer=/shipping](https://sebastam97.github.io/checkout-review-step/review-step?token=demo123&referrer=/shipping)
+- **Con Token**: [https://checkout-review-step.vercel.app/review-step?token=demo123&referrer=/shipping](https://checkout-review-step.vercel.app/review-step?token=demo123&referrer=/shipping)
 - **Diferentes Idiomas**:
-  - Español: [https://sebastam97.github.io/checkout-review-step/review-step?lang=es](https://sebastam97.github.io/checkout-review-step/review-step?lang=es)
-  - Portugués: [https://sebastam97.github.io/checkout-review-step/review-step?lang=pt](https://sebastam97.github.io/checkout-review-step/review-step?lang=pt)
-  - Inglés: [https://sebastam97.github.io/checkout-review-step/review-step?lang=en](https://sebastam97.github.io/checkout-review-step/review-step?lang=en)
+  - Español: [https://checkout-review-step.vercel.app/review-step?lang=es](https://checkout-review-step.vercel.app/review-step?lang=es)
+  - Portugués: [https://checkout-review-step.vercel.app/review-step?lang=pt](https://checkout-review-step.vercel.app/review-step?lang=pt)
+  - Inglés: [https://checkout-review-step.vercel.app/review-step?lang=en](https://checkout-review-step.vercel.app/review-step?lang=en)
 
 ### Repositorio
 
@@ -53,11 +53,8 @@ npm run dev
 # Build para producción
 npm run build
 
-# Preview del build (con rutas locales)
+# Preview del build
 npm run preview
-
-# Preview del build (simulando GitHub Pages)
-npm run preview:github
 
 # Linting del código
 npm run lint
@@ -330,63 +327,17 @@ npm run test:performance
 
 ## 🚦 Deployment
 
-### GitHub Pages (Automático)
-
-Este proyecto está configurado para desplegarse automáticamente en GitHub Pages cada vez que hagas push a la rama `main`.
-
-#### Configuración Inicial (Solo una vez)
-
-1. **Habilitar GitHub Pages**:
-   - Ve a tu repositorio en GitHub: [https://github.com/sebastam97/checkout-review-step](https://github.com/sebastam97/checkout-review-step)
-   - Clicks en `Settings` > `Pages`
-   - En `Source`, selecciona `GitHub Actions`
-
-2. **Verificar Permisos**:
-   - Ve a `Settings` > `Actions` > `General`
-   - En `Workflow permissions`, asegúrate que esté seleccionado `Read and write permissions`
-
-#### Deployment Automático
-
-La GitHub Action se ejecuta automáticamente cuando:
-- Haces `push` a la rama `main`
-- Se crea un Pull Request hacia `main`
-
-**Proceso automático**:
-1. ✅ Checkout del código
-2. ✅ Configuración de Node.js 18
-3. ✅ Instalación de dependencias (`npm ci`)
-4. ✅ Lint del código (`npm run lint`)
-5. ✅ Build del proyecto (`npm run build`)
-6. ✅ Deploy a GitHub Pages
-
-#### URL del Sitio Desplegado
-
-Después del primer deployment exitoso, tu sitio estará disponible en:
-- **URL Principal**: [https://sebastam97.github.io/checkout-review-step/](https://sebastam97.github.io/checkout-review-step/)
-
-#### Verificar el Estado del Deployment
-
-1. Ve a la pestaña `Actions` en tu repositorio
-2. Busca el workflow `Deploy to GitHub Pages`
-3. Verifica que el deployment esté en verde ✅
-
-#### Deployment Manual (Opcional)
-
-Si necesitas hacer un deployment manual:
-
-```bash
-# Build local
-npm run build
-
-# El build se genera en la carpeta /dist
-# GitHub Actions se encarga automáticamente del resto
-```
-
 ### Estrategia de Rollout
 
-1. **Development**: Local development con `npm run dev`
-2. **Staging**: Pull Requests que generan preview builds
-3. **Production**: GitHub Pages con deployment automático
+1. **Phase 1**: A/B test con 5% del tráfico
+2. **Phase 2**: Incremento gradual basado en métricas
+3. **Phase 3**: Full rollout con monitoring activo
+
+### Ambientes
+
+- **Development**: Local development
+- **Staging**: UAT y testing
+- **Production**: Live traffic
 
 ## 📚 Documentación Adicional
 
@@ -450,8 +401,8 @@ npm run build
 ### Repositorio y Demo
 
 - **GitHub**: [https://github.com/sebastam97/checkout-review-step](https://github.com/sebastam97/checkout-review-step)
-- **Demo Live**: [https://sebastam97.github.io/checkout-review-step/](https://sebastam97.github.io/checkout-review-step/)
-- **Review Step**: [https://sebastam97.github.io/checkout-review-step/review-step](https://sebastam97.github.io/checkout-review-step/review-step)
+- **Demo Live**: [https://checkout-review-step.vercel.app/](https://checkout-review-step.vercel.app/)
+- **Review Step**: [https://checkout-review-step.vercel.app/review-step](https://checkout-review-step.vercel.app/review-step)
 
 ### Documentación
 

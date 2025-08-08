@@ -6,6 +6,10 @@ import { Shipping } from '../app/shipping/page/Shipping';
 
 export const router = createBrowserRouter([
   {
+    path: '/review-step',
+    element: <ReviewStep />
+  },
+  {
     path: '/validate-data',
     element: <ReviewStep />
   },
@@ -21,4 +25,6 @@ export const router = createBrowserRouter([
     path: '/',
     element: <Home />
   }
-] as RouteObject[]);
+] as RouteObject[], {
+  basename: '/checkout-review-step'
+});
