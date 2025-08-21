@@ -183,23 +183,6 @@ npm run preview      # Vista previa del build de producción
 npm run lint         # Ejecuta ESLint para verificar el código
 ```
 
-### URLs de Prueba Locales
-
-Cuando ejecutes `npm run dev`, puedes probar estas rutas:
-
-```
-# Página principal
-http://localhost:5173/
-
-# Review Step (componente principal)
-http://localhost:5173/review-step
-
-# Con parámetros de prueba
-http://localhost:5173/review-step?token=demo123&referrer=/shipping
-http://localhost:5173/review-step?lang=es
-http://localhost:5173/review-step?lang=pt
-http://localhost:5173/review-step?lang=en
-```
 
 ### Estructura del Proyecto para Desarrolladores
 
@@ -228,23 +211,7 @@ src/
 5. **Captcha**: Verificación de seguridad (invisible por defecto)
 6. **Confirmación**: Envío final y redirección a página de confirmación
 
-## 🔧 Configuración
-
-### Variables de Entorno
-
-```env
-VITE_API_BASE_URL=http://localhost:3001/api
-RECAPTCHA_SITE_KEY=your-recaptcha-site-key
-```
-
 ## 📊 Performance
-
-### Métricas Objetivo
-
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Time to Interactive**: < 3.5s
-- **Cumulative Layout Shift**: < 0.1
 
 ### Optimizaciones Implementadas
 
@@ -254,87 +221,6 @@ RECAPTCHA_SITE_KEY=your-recaptcha-site-key
 - Compresión de assets
 - Cache de datos frecuentes
 
-## 🧪 Testing
-
-### Estrategia de Testing
-
-```bash
-# Unit tests
-npm run test:unit
-
-# Integration tests
-npm run test:integration
-
-# E2E tests
-npm run test:e2e
-
-# Performance tests
-npm run test:performance
-```
-
-### Coverage Objetivo
-
-- Unit tests: > 80%
-- Integration tests: Flujos críticos
-- E2E tests: Happy path + error scenarios
-
-## 🔒 Seguridad
-
-### Medidas Implementadas
-
-- **CSRF Protection**: Tokens en formularios
-- **Input Validation**: Sanitización client y server
-- **Rate Limiting**: Prevención de spam
-- **Secure Headers**: CSP, HSTS, etc.
-- **Captcha Validation**: Verificación server-side
-
-## 📈 Monitoring
-
-### Métricas Tracked
-
-- Performance (Core Web Vitals)
-- Error rates y tipos
-- Conversion rates
-- User behavior analytics
-
-### Herramientas
-
-- Lighthouse CI para performance
-- Sentry para error tracking
-- Google Analytics para user metrics
-
-## 🚦 Deployment
-
-### Estrategia de Rollout
-
-1. **Phase 1**: A/B test con 5% del tráfico
-2. **Phase 2**: Incremento gradual basado en métricas
-3. **Phase 3**: Full rollout con monitoring activo
-
-### Ambientes
-
-- **Development**: Local development
-- **Staging**: UAT y testing
-- **Production**: Live traffic
-
-## 📚 Documentación Adicional
-
-- [ARCHITECTURE.md](./ARCHITECTURE.md) - Documentación detallada de arquitectura
-- [API_DOCUMENTATION.md](./API_DOCUMENTATION.md) - Documentación de APIs
-- [Demo Server](./demo-server.js) - Servidor de demostración
-
-## 🔄 Próximos Pasos
-
-1. **Validación de arquitectura** con stakeholders
-2. **Setup del entorno** de desarrollo completo
-3. **Implementación del MVP** con funcionalidad básica
-4. **Testing extensivo** en dispositivos reales
-5. **Integración con APIs** reales de MercadoLibre
-6. **A/B testing** para optimización
-
-## 🤝 Contribución
-
-### Para Desarrolladores
 
 1. **Fork del repositorio** en GitHub: [https://github.com/sebastam97/checkout-review-step](https://github.com/sebastam97/checkout-review-step)
 2. **Clonar tu fork**:
@@ -374,55 +260,5 @@ npm run test:performance
 - Mantén los componentes pequeños y reutilizables
 - Documenta funciones complejas con JSDoc
 
-## 📚 Enlaces Importantes
 
-### Repositorio y Demo
 
-- **GitHub**: [https://github.com/sebastam97/checkout-review-step](https://github.com/sebastam97/checkout-review-step)
-- **Demo Live**: [https://sebastam97.github.io/checkout-review-step/](https://sebastam97.github.io/checkout-review-step/)
-- **Review Step**: [https://sebastam97.github.io/checkout-review-step/review-step](https://sebastam97.github.io/checkout-review-step/review-step)
-
-### Documentación
-
-- **Issues**: [https://github.com/sebastam97/checkout-review-step/issues](https://github.com/sebastam97/checkout-review-step/issues)
-- **Pull Requests**: [https://github.com/sebastam97/checkout-review-step/pulls](https://github.com/sebastam97/checkout-review-step/pulls)
-- **Releases**: [https://github.com/sebastam97/checkout-review-step/releases](https://github.com/sebastam97/checkout-review-step/releases)
-
-## 📄 Licencia
-
-Este proyecto es parte del ecosistema de MercadoLibre y está sujeto a las políticas internas de la empresa.
-
----
-
-**Estimación de Esfuerzo**: 5-7 semanas
-**Estado**: Propuesta de arquitectura y POC
-**Última actualización**: Agosto 2025
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname
-      }
-      // other options...
-    }
-  }
-]);
-```
