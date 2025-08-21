@@ -222,36 +222,6 @@ src/
 - Cache de datos frecuentes
 
 
-1. **Fork del repositorio** en GitHub: [https://github.com/sebastam97/checkout-review-step](https://github.com/sebastam97/checkout-review-step)
-2. **Clonar tu fork**:
-   ```bash
-   git clone https://github.com/TU-USUARIO/checkout-review-step.git
-   cd checkout-review-step
-   ```
-3. **Crear branch de feature**:
-   ```bash
-   git checkout -b feature/nueva-funcionalidad
-   ```
-4. **Instalar dependencias**:
-   ```bash
-   npm install
-   ```
-5. **Desarrollar y probar**:
-   ```bash
-   npm run dev
-   npm run lint
-   ```
-6. **Commit de cambios**:
-   ```bash
-   git add .
-   git commit -m "feat: agregar nueva funcionalidad"
-   ```
-7. **Push al branch**:
-   ```bash
-   git push origin feature/nueva-funcionalidad
-   ```
-8. **Crear Pull Request** en GitHub
-
 ### Guidelines de Desarrollo
 
 - Usa TypeScript para todo el código nuevo
