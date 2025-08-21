@@ -94,12 +94,6 @@ src/
         └── SelectField/
 ```
 
-### Backend (Express)
-
-- **Endpoints**: `/api/review`, `/api/validate`, `/api/submit`
-- **Integración**: APIs meli-countries y meli-users
-- **Seguridad**: Rate limiting, validación de captcha, sanitización
-- **Performance**: Cache, optimizaciones de respuesta
 
 ## 🚀 Setup y Desarrollo
 
